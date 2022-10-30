@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+:root {
+	--bg-color: #2f3e46;
+	--btn-color: #f77f00;
+	--white: #fff;
+	--black: #000;
+	--gray: #212529;
+}
+body {
+	background: var(--black);
+}
